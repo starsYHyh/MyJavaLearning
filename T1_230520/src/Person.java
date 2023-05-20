@@ -3,6 +3,7 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+        System.out.println("Age has been reset!");
     }
 
     public int getAge() {
